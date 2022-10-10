@@ -58,8 +58,8 @@ fm6000 -random | lolcat
 #hfetch
 #fetch
 #paleofetch
-#alsi
-#screenfetch
+######alsi
+######screenfetch
 #neofetch | lolcat
 #neofetch
 

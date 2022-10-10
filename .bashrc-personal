@@ -1,6 +1,10 @@
-#>>>>>>>>>>>>>>>>>>>#.bashrc-personal#<<<<<<<<<<<<<<<<<<<<#
-
-##Uncle Chris's alias bullcrap##
+####################################################
+# _   _            _         ____ _          _     #
+#| | | |_ __   ___| | ___   / ___| |__  _ __(_)___ #
+#| | | | '_ \ / __| |/ _ \ | |   | '_ \| '__| / __|#
+#| |_| | | | | (__| |  __/ | |___| | | | |  | \__ \#
+# \___/|_| |_|\___|_|\___|  \____|_| |_|_|  |_|___/#
+######### Uncle Chris's alias bullcrap #############
 
 # ##Git Bare Repository
 alias configt="/usr/bin/git --git-dir=$HOME/repotest/ --work-tree=$HOME"
@@ -88,6 +92,13 @@ alias cf='cp /etc/skel/.config/fish/config.fish ~/.config/fish/config.fish && ec
 alias tobash="sudo chsh $USER -s /bin/bash && echo 'Now log out.'"
 alias tozsh="sudo chsh $USER -s /bin/zsh && echo 'Now log out.'"
 alias tofish="sudo chsh $USER -s /bin/fish && echo 'Now log out.'"
+
+#switch between lightdm and sddm
+alias tolightdm="sudo pacman -S lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings --noconfirm --needed ; sudo systemctl enable lightdm.service -f ; echo 'Lightm is active - reboot now'"
+alias tosddm="sudo pacman -S sddm --noconfirm --needed ; sudo systemctl enable sddm.service -f ; echo 'Sddm is active - reboot now'"
+alias toly="sudo pacman -S ly --noconfirm --needed ; sudo systemctl enable ly.service -f ; echo 'Ly is active - reboot now'"
+alias togdm="sudo pacman -S gdm --noconfirm --needed ; sudo systemctl enable gdm.service -f ; echo 'Gdm is active - reboot now'"
+alias tolxdm="sudo pacman -S lxdm --noconfirm --needed ; sudo systemctl enable lxdm.service -f ; echo 'Lxdm is active - reboot now'"
 
 # kill commands
 # quickly kill conkies
