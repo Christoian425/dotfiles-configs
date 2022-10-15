@@ -33,7 +33,7 @@ source ~/.config/.zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh
 
 ## Themes and other eye candy
 # source ~/.config/.zsh/themes/<name_of_theme>
-#source ~/.config/.zsh/themes/gnzh.zsh-theme
+# source ~/.config/.zsh/themes/gnzh.zsh-theme
 source ~/.config/.zsh/themes/powerlevel10k/powerlevel10k.zsh-theme
 
 
@@ -52,16 +52,17 @@ fm6000 -random | lolcat
 #sysinfo-retro
 #sysinfo
 #pfetch
-#ufetch-arco | lolcat
-#ufetch | lolcat
+#ufetch-arco
+#ufetch
 #sfetch
 #hfetch
 #fetch
 #paleofetch
-######alsi
-######screenfetch
-#neofetch | lolcat
+#alsi
+#screenfetch
+#neofetch
 #neofetch
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+#alsi
