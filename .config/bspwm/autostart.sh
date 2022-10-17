@@ -56,7 +56,7 @@ run volumeicon &
 #run thunar &
 #run dropbox &
 #run insync start &
-run discord &
+#run discord &
 #run spotify &
 #run atom &
 run xfce4-clipman &

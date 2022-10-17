@@ -4,7 +4,7 @@
 #| | | | '_ \ / __| |/ _ \ | |   | '_ \| '__| / __|#
 #| |_| | | | | (__| |  __/ | |___| | | | |  | \__ \#
 # \___/|_| |_|\___|_|\___|  \____|_| |_|_|  |_|___/#
-######### Uncle Chris's alias bullcrap #############
+######### Uncle Chris's zsh alias bullcrap #########
 
 # ##Git Bare Repository
 alias configt="/usr/bin/git --git-dir=$HOME/repotest/ --work-tree=$HOME"
@@ -13,14 +13,6 @@ alias config="/usr/bin/git --git-dir=$HOME/dotfiles-configs/ --work-tree=$HOME"
 #Misc crap
 alias xpropp="xprop | grep WM_CLASS | awk '{print $4}'"
 alias v="/usr/bin/vim"
-
-# ## Basic auto/tab complete:
-autoload -U compinit
-zstyle ':completion:*' menu select
-zmodload zsh/complist
-compinit
-_comp_options+=(globdots)               # Include hidden files.
-
 
 
 ####Arcolinux Aliases####
