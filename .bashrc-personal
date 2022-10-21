@@ -13,7 +13,7 @@ alias config="/usr/bin/git --git-dir=$HOME/dotfiles-configs/ --work-tree=$HOME"
 #Misc crap
 alias xpropp="xprop | grep WM_CLASS | awk '{print $4}'"
 alias v="/usr/bin/vim"
-
+alias nv="/usr/bin/nvim"
 
 
 ####Arcolinux Aliases####
