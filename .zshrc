@@ -46,13 +46,13 @@ source ~/.config/.zsh/themes/powerlevel10k/powerlevel10k.zsh-theme
 
 [[ -f ~/.zshrc-personal ]] && . ~/.zshrc-personal
 
-fm6000 -random | lolcat
+#fm6000 -random | lolcat
 #colorscript random
 #cpufetch
 #sysinfo-retro
 #sysinfo
 #pfetch
-#ufetch-arco
+ufetch-arco
 #ufetch
 #sfetch
 #hfetch
