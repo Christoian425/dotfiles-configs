@@ -1,19 +1,24 @@
-# Get editor completions based on the config schema
-"$schema" = 'https://starship.rs/config-schema.json'
+# ~/.config/starship.toml
 
-# Inserts a blank line between shell prompts
-add_newline = true
 
-# Replace the "❯" symbol in the prompt with "➜"
-[character] # The name of the module we are configuring is "character"
-success_symbol = "[➜](bold green)" # The "success_symbol" segment is being set to "➜" with the color "bold green"
+# Wait 10 milliseconds for starship to check files under the current directory.
+scan_timeout = 10
 
-# Disable the package module, hiding it from the prompt completely
-[package]
-disabled = true
+# Disable the blank line at the start of the prompt
+add_newline = false
+
+# Set "foo" as custom color palette
+palette = "foo"
+
+# Define custom colors
+[palettes.foo]
+# Overwrite existing color
+blue = "21"
+# Define new color
+mustard = "#af8700"
 
 [username]
-style_user = "white bold"
+style_user = "green bold"
 style_root = "red bold"
 format = "user: [$user]($style) "
 disabled = false
@@ -21,7 +26,7 @@ show_always = true
 
 [hostname]
 ssh_only = false
-format = "[$ssh_symbol](bold blue) on [$hostname](bold red) "
+format = "[$ssh_symbol](bold blue) on [$hostname](bold blue) "
 trim_at = ".companyname.com"
 disabled = false
 
@@ -33,12 +38,11 @@ utc_time_offset = "-5"
 time_range = "10:00:00-14:00:00"
 
 [sudo]
-style = "bold green"
+style = "bold white"
 symbol = "👩‍💻 "
 disabled = false
 
 [localip]
 ssh_only = false
-format = "@[$localipv4](bold red) "
+format = "@[$localipv4](bold yellow) "
 disabled = false
-

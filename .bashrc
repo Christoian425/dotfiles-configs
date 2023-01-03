@@ -51,3 +51,6 @@ fm6000 -r | lolcat
 #sysinfo-retro
 #cpufetch
 #colorscript random
+#
+eval "$(starship init bash)"
+

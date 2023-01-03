@@ -46,13 +46,13 @@ source ~/.config/.zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh
 
 [[ -f ~/.zshrc-personal ]] && . ~/.zshrc-personal
 
-#fm6000 -random | lolcat
+fm6000 -random | lolcat
 #colorscript random
 #cpufetch
 #sysinfo-retro
 #sysinfo
 #pfetch
-ufetch-arco | lolcat
+#ufetch-arco | lolcat
 #ufetch
 #sfetch
 #hfetch
